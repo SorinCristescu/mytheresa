@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`to render Spinner component 1`] = `
+<styled.div>
+  <svg
+    height="142px"
+    version="1.1"
+    viewBox="0 0 141 142"
+    width="141px"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+  >
+    <g
+      fill="none"
+      fillRule="evenodd"
+      id="Page-1"
+      stroke="none"
+      strokeWidth="1"
+    >
+      <g
+        id="Desktop-HD"
+        transform="translate(-650.000000, -441.000000)"
+      >
+        <g
+          id="logo-copy"
+          transform="translate(650.000000, 441.000000)"
+        >
+          <g
+            id="role"
+            transform="translate(0.000000, 0.560000)"
+          >
+            <circle
+              cx="70.2"
+              cy="70.2"
+              id="Oval"
+              r="65.16"
+              stroke="#63616A"
+              strokeWidth="10.08"
+            />
+            <circle
+              cx="70.56"
+              cy="37.8"
+              id="Oval"
+              r="10.98"
+              stroke="#63616A"
+              strokeWidth="9.72"
+            />
+            <circle
+              cx="102.96"
+              cy="70.2"
+              id="Oval-Copy"
+              r="10.98"
+              stroke="#63616A"
+              strokeWidth="9.72"
+            />
+            <circle
+              cx="70.56"
+              cy="102.6"
+              id="Oval-Copy-2"
+              r="10.98"
+              stroke="#63616A"
+              strokeWidth="9.72"
+            />
+            <circle
+              cx="38.16"
+              cy="70.2"
+              id="Oval-Copy-3"
+              r="10.98"
+              stroke="#63616A"
+              strokeWidth="9.72"
+            />
+            <rect
+              fill="#63616A"
+              height="10.8"
+              id="Rectangle"
+              width="10.8"
+              x="65.16"
+              y="64.8"
+            />
+          </g>
+        </g>
+      </g>
+    </g>
+  </svg>
+</styled.div>
+`;

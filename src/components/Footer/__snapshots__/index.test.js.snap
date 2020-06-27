@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`to render Footer component 1`] = `
+<styled.div>
+  <span>
+    Built with passion by STC
+  </span>
+</styled.div>
+`;

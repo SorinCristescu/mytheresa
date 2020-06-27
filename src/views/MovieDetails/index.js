@@ -139,6 +139,7 @@ const MovieDetailsPage = (props) => {
               </Description>
               <div ref={addToCartButton}>
                 <Button
+                  id="add_movie_details"
                   onClick={() => addToCart(movie)}
                   name="ADD TO CART"
                   width="200px"

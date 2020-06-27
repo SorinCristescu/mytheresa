@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`to render Button component 1`] = `
+<styled.div>
+  <button />
+</styled.div>
+`;

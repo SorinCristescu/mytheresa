@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`to render Layout component 1`] = `
+<div>
+  <Header />
+  <styled.div />
+  <Footer />
+</div>
+`;
