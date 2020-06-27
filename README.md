@@ -3,10 +3,10 @@ Application for fetching movies data from TMDB API.
 Live search implemented.
 Cart implemented.
 # Installation
-# npm install
+npm install
 # Developemnt
-# npm start
+npm start
 # Test
-# npm test
+npm test
 # Test coverage
-# npm test -- --coverage
+npm test -- --coverage
