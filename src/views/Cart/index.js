@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { BASE_URL_IMAGE } from '../../constants';
-import gsap from 'gsap';
+
 import {
-  updateCartUnits,
   clearCart,
   getTotalCost,
   removeMovieFromCart,
@@ -15,22 +13,12 @@ import {
 import Button from '../../components/Button';
 
 // Styles
-import {
-  PageContainer,
-  CartList,
-  Product,
-  Price,
-  Quantity,
-  Commands,
-} from './style';
+import { PageContainer, CartList, Product, Quantity, Commands } from './style';
 const CartPage = () => {
   const cartProps = useSelector((state) => state.cart);
   const { cartProducts, cartCost, numberOfProducts } = cartProps;
   const dispatch = useDispatch();
 
-  useEffect(() => {
-    // dispatch(getTotalCost());
-  });
   const handleIncrease = (id, units) => {
     dispatch(increaseNrOfMovies(id, units));
     dispatch(getTotalCost());
@@ -49,7 +37,7 @@ const CartPage = () => {
           <Product>
             <div className="product-container">
               <img
-                src={`${BASE_URL_IMAGE}${product.poster_path}`}
+                src={`${process.env.BASE_URL_IMAGE}${product.poster_path}`}
                 alt={`${product.title} poster`}
               />
               <div>

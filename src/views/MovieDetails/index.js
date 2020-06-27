@@ -1,19 +1,17 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { useSelector, useDispatch } from 'react-redux';
 import { getMovieById } from '../../redux/movies/actions';
 import { addMovieToCart } from '../../redux/cart/actions';
 
 // Routing
-import { withRouter, NavLink } from 'react-router-dom';
-import { BASE_URL_IMAGE } from '../../constants';
+import { withRouter } from 'react-router-dom';
 
 // Components
 import Button from '../../components/Button';
 
 // Styles
 import {
-  PageContainer,
   ContainerInner,
   ImageWrapper,
   ImageContainer,
@@ -157,7 +155,7 @@ const MovieDetailsPage = (props) => {
               <img
                 ref={imageEl}
                 className="image"
-                src={`${BASE_URL_IMAGE}${poster_path}`}
+                src={`${process.env.BASE_URL_IMAGE}${poster_path}`}
                 alt="image of a young woman."
               />
             </ImageContainer>

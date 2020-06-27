@@ -21,14 +21,6 @@ const CategoryPage = (props) => {
 
   const movies = useSelector((state) => state.movies);
   console.log('movies from category', movies);
-
-  const nowPlayingMovies = useSelector(
-    (state) => state.movies.nowPlayingMovies
-  );
-  const popularMovies = useSelector((state) => state.movies.popularMovies);
-  const topRatedMovies = useSelector((state) => state.movies.topRatedMovies);
-  const upcomingMovies = useSelector((state) => state.movies.upcomingMovies);
-  const latestMovies = useSelector((state) => state.movies.latestMovies);
   const loadingMovies = useSelector((state) => state.movies.loading);
 
   useEffect(() => {

@@ -1,16 +1,10 @@
 import styled from 'styled-components';
-import { BASE_URL_IMAGE } from '../../constants';
+
 export const CardContainer = styled.div`
   width: 200px;
   height: 300px;
   margin: 20px;
-  /* position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  margin: auto; */
-  background: url(${BASE_URL_IMAGE}${(props) => props.imageUrl});
+  background: url(${process.env.BASE_URL_IMAGE}${(props) => props.imageUrl});
   background-color: black;
   background-size: cover;
   cursor: pointer;

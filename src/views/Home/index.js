@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import {
   getMoviesLatest,
@@ -21,7 +21,6 @@ const HomePage = (props) => {
   const topRatedMovies = useSelector((state) => state.movies.topRatedMovies);
   const upcomingMovies = useSelector((state) => state.movies.upcomingMovies);
   const loadingMovies = useSelector((state) => state.movies.loading);
-  const movie = useSelector((state) => state.movies.movie);
   const dispatch = useDispatch();
 
   useEffect(() => {

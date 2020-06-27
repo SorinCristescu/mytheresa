@@ -1,5 +1,4 @@
 import axios from 'axios';
-import { BASE_URL, TMDB_API_ACCESS_TOKEN, TMDB_API_KEY } from '../../constants';
 
 import {
   GET_MOVIES_LATEST_START,
@@ -32,7 +31,7 @@ export const getMoviesLatest = () => async (dispatch) => {
   });
   try {
     const response = await axios.get(
-      `${BASE_URL}/movie/latest?api_key=${TMDB_API_KEY}`
+      `${process.env.BASE_URL}/movie/latest?api_key=${process.env.TMDB_API_KEY}`
     );
     dispatch({
       type: GET_MOVIES_LATEST_SUCCESS,
@@ -54,7 +53,7 @@ export const getMoviesNowPlaying = () => async (dispatch) => {
   });
   try {
     const response = await axios.get(
-      `${BASE_URL}/movie/now_playing?api_key=${TMDB_API_KEY}`
+      `${process.env.BASE_URL}/movie/now_playing?api_key=${process.env.TMDB_API_KEY}`
     );
     dispatch({
       type: GET_MOVIES_NOW_PLAYING_SUCCESS,
@@ -76,7 +75,7 @@ export const getMoviesPopular = () => async (dispatch) => {
   });
   try {
     const response = await axios.get(
-      `${BASE_URL}/movie/popular?api_key=${TMDB_API_KEY}`
+      `${process.env.BASE_URL}/movie/popular?api_key=${process.env.TMDB_API_KEY}`
     );
     dispatch({
       type: GET_MOVIES_POPULAR_SUCCESS,
@@ -98,7 +97,7 @@ export const getMoviesTopRated = () => async (dispatch) => {
   });
   try {
     const response = await axios.get(
-      `${BASE_URL}/movie/top_rated?api_key=${TMDB_API_KEY}`
+      `${process.env.BASE_URL}/movie/top_rated?api_key=${process.env.TMDB_API_KEY}`
     );
     dispatch({
       type: GET_MOVIES_TOP_RATED_SUCCESS,
@@ -120,7 +119,7 @@ export const getMoviesUpcoming = () => async (dispatch) => {
   });
   try {
     const response = await axios.get(
-      `${BASE_URL}/movie/upcoming?api_key=${TMDB_API_KEY}`
+      `${process.env.BASE_URL}/movie/upcoming?api_key=${process.env.TMDB_API_KEY}`
     );
     dispatch({
       type: GET_MOVIES_UPCOMING_SUCCESS,
@@ -142,7 +141,7 @@ export const getMovieById = (id) => async (dispatch) => {
   });
   try {
     const response = await axios.get(
-      `${BASE_URL}/movie/${id}?api_key=${TMDB_API_KEY}`
+      `${process.env.BASE_URL}/movie/${id}?api_key=${process.env.TMDB_API_KEY}`
     );
     dispatch({
       type: GET_MOVIE_BY_ID_SUCCESS,
@@ -164,7 +163,7 @@ export const searchByQuerry = (querry) => async (dispatch) => {
   });
   try {
     const response = await axios.get(
-      `${BASE_URL}/search/movie?query=${querry}&api_key=${TMDB_API_KEY}`
+      `${process.env.BASE_URL}/search/movie?query=${querry}&api_key=${process.env.TMDB_API_KEY}`
     );
     dispatch({
       type: SEARCH_BY_QUERRY_SUCCESS,

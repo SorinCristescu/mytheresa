@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 const TerserWebpackPlugin = require('terser-webpack-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const Dotenv = require('dotenv-webpack');
 
 module.exports = function (_env, argv) {
   const isProduction = argv.mode === 'production';
@@ -79,6 +80,7 @@ module.exports = function (_env, argv) {
           isProduction ? 'production' : 'development'
         ),
       }),
+      new Dotenv(),
     ].filter(Boolean),
     optimization: {
       minimize: isProduction,
