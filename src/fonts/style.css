@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Manrope-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Manrope-Bold'), url('./manrope/Manrope-Bold.ttf') format('ttf');
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Manrope-ExtraBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Manrope-ExtraBold'),
+    url('./manrope/Manrope-ExtraBold.ttf') format('ttf');
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Manrope-Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Manrope-Light'), url('./manrope/Manrope-Light.ttf') format('ttf');
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Manrope-Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Manrope-Medium'),
+    url('./manrope/Manrope-Medium.ttf') format('ttf');
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Manrope-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Manrope-Regular'),
+    url('./manrope/Manrope-Regular.ttf') format('ttf');
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Manrope-SemiBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Manrope-SemiBold'),
+    url('./manrope/Manrope-SemiBold.ttf') format('ttf');
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'MonumentExtended-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('MonumentExtended-Regular'),
+    url('./monument-extended/MonumentExtended-Regular.otf') format('otf');
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'MonumentExtended-Ultrabold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('MonumentExtended-Ultrabold'),
+    url('./monument-extended/MonumentExtended-Ultrabold.otf') format('otf');
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

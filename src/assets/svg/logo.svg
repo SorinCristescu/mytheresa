@@ -1,0 +1,21 @@
+<svg width="63px" height="64px" viewBox="0 0 63 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-133.000000, -10.000000)" stroke="#F9F8FE">
+            <g id="logo" transform="translate(133.000000, 12.000000)">
+                <g id="role" transform="translate(0.000000, 14.520000)">
+                    <circle id="Oval" stroke-width="3.36" cx="23.4" cy="23.4" r="21.72"></circle>
+                    <circle id="Oval" stroke-width="3.24" cx="23.52" cy="12.6" r="3.66"></circle>
+                    <circle id="Oval-Copy" stroke-width="3.24" cx="34.32" cy="23.4" r="3.66"></circle>
+                    <circle id="Oval-Copy-2" stroke-width="3.24" cx="23.52" cy="34.2" r="3.66"></circle>
+                    <circle id="Oval-Copy-3" stroke-width="3.24" cx="12.72" cy="23.4" r="3.66"></circle>
+                    <rect id="Rectangle" stroke-width="0.5" fill="#F9F8FE" x="21.97" y="21.85" width="3.1" height="3.1"></rect>
+                </g>
+                <g id="Group" transform="translate(16.920000, 0.000000)" stroke-width="3.36">
+                    <path d="M28.3059448,40.3721412 C32.2000952,39.3701016 34.7235352,38.5057913 35.8762647,37.7792105 C37.6053589,36.6893392 42.8154592,33.1607606 43.2995277,23.5984286 C43.7835961,14.0360966 33.6997565,8.15215684 29.1984636,8.15215684 C20.4794236,8.15215684 10.7466024,8.15215684 0,8.15215684 L0,0.483859662 L23.1999036,0.483859662 C28.6599591,0.420816639 33.2392791,2.46596788 36.9378636,6.61931338 C42.4857404,12.8493316 43.2995277,16.9248915 43.7835961,23.5984286 C44.2676646,30.2719657 40.2748798,39.6132468 35.8762647,42.9798865 C32.9438546,45.224313 29.8592127,46.5376841 26.6223391,46.92 L28.3059448,40.3721412 Z" id="Path-2"></path>
+                    <line x1="21.4707835" y1="0" x2="21.4707835" y2="7.7661888" id="Path-3"></line>
+                    <line x1="10.6247221" y1="0" x2="10.6247221" y2="7.7661888" id="Path-4"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
